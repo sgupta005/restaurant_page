@@ -1,5 +1,5 @@
 body{
-    overflow: -moz-hidden-unscrollable;
+    overflow: hidden;
     font-family: Montserrat,sans-serif;;
     margin: 0px;
     padding: 0px;
