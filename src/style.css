@@ -1,4 +1,5 @@
 body{
+    overflow: -moz-hidden-unscrollable;
     font-family: Montserrat,sans-serif;;
     margin: 0px;
     padding: 0px;
@@ -34,4 +35,11 @@ header .name{
     color: rgb(255, 255, 255);
     font-size: 18px;
     text-decoration: none;
+}
+.main{
+    height: 750px;
+}
+.home-banner-image{
+    height: 100%;
+    width: 100%;
 }
