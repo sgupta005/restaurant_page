@@ -1,1 +1,1 @@
-console.log('heelo');
+import './style.css';
