@@ -1,5 +1,6 @@
-import './style.css';
-import home from './home.js';
+import initialLoad from './pageLoad.js';
 
-home();
+initialLoad();
+
+
 
