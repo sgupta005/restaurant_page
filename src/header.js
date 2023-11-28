@@ -13,10 +13,12 @@ export default function createHeader(){
     name_div.setAttribute('class', 'name');
     navbar.setAttribute('class', 'nav_bar');
     name_div.textContent = 'Hot Burst Pizza';
+    homeButton.setAttribute('class', 'home-button');
+    menuButton.setAttribute('class', 'menu-button');
+    aboutButton.setAttribute('class', 'about-button');
     homeButton.textContent = 'Home';
     menuButton.textContent = 'Menu';
     aboutButton.textContent = 'About';
-
 
     navbar.append(homeButton,menuButton,aboutButton);
     header.append(name_div, navbar);

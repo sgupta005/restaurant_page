@@ -4,13 +4,12 @@ import './css/index.css';
 
 export default function createHomePage(){
     const content = document.getElementById('content');
-    const main = document.createElement('div');
+    const main = document.querySelector('.main');
     const homeBannerImage = new Image();
     const overlayText = document.createElement('div');
     const title = document.createElement('h1');
     const slogan = document.createElement('p');
 
-    main.setAttribute('class', 'main');
     homeBannerImage.setAttribute('class', 'home-banner-image');
     homeBannerImage.src = homeImage;
     overlayText.setAttribute('class', 'text-overlay');
