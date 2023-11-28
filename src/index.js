@@ -1,4 +1,5 @@
 import {initialLoad, menuLoad, aboutLoad, homeLoad} from './pageLoad.js';
+import './style.css';
 
 initialLoad();
 

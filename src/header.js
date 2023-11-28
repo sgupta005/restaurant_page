@@ -1,6 +1,3 @@
-import './css/index.css'
-import './css/header.css';
-
 export default function createHeader(){
     const content = document.getElementById('content');
     const header = document.createElement('header');

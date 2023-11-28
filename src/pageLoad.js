@@ -9,19 +9,25 @@ export function initialLoad(){
 }
 
 export function homeLoad(){
-    const main = document.querySelector('.main');
-    main.innerHTML = '';
+    clearContent();
     createHomePage();
 }
 
 export function menuLoad(){
-    const main = document.querySelector('.main');
-    main.innerHTML = '';
+    clearContent();
     createMenuPage();
 }
 
 export function aboutLoad(){
-    const main = document.querySelector('.main');
-    main.innerHTML = '';
+    clearContent();
     createAboutPage();
+}
+
+function clearContent(){
+    const content = document.getElementById('content');
+    const pageContent = document.querySelector('.page-content');
+    
+    if (pageContent){
+        content.removeChild(pageContent);
+    }
 }

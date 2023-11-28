@@ -1,13 +1,11 @@
-import './css/index.css';
-import './css/menu.css';
-
 export default function createMenuPage(){
     const content = document.getElementById('content');
-    const main = document.querySelector('.main');
+    const pageContent = document.createElement('div');
     const heading = document.createElement('h1');
     
+    pageContent.setAttribute('class', 'page-content');
     heading.textContent = 'Menu Page';
     
-    main.appendChild(heading);
-    content.appendChild(main);
+    pageContent.appendChild(heading);
+    content.appendChild(pageContent);
 }
